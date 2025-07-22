@@ -261,7 +261,7 @@ termux-setup-storage
 
 pip install requests
 
-wget https://github.com/MadeeshaSK/msgsend/releases/download/v2.0/msgsend
+wget https://github.com/MadeeshaSK/msgsend/releases/download/v2.0/msgsend-v2.0.zip
 
 unzip msgsend-v2.0.zip
 
@@ -272,3 +272,9 @@ bash install.sh
 python msgsend.py
 
 # python msgsend.py
+
+### 🔍 More Details
+
+For full setup instructions, usage examples, and server API integration, check:
+
+- 🔗 [OTP Server Repository](https://github.com/MadeeshaSK/OTP-Server)
