@@ -136,7 +136,8 @@ A comprehensive, enterprise-grade OTP (One-Time Password) system with cloud back
 - **Input Validation**: Comprehensive phone and message sanitization
 - **Error Handling**: Structured JSON responses with logging
 - **Health Monitoring**: Automated system checks and alerts
-- **Kill Switch**: Automated Kill program
+- **Kill Switch**: Auto-disable program triggered by developer for any user.
+- **Encoded Code**: Unreadable scripts that still run successfully
 
 ## 📊 Performance Metrics
 
@@ -242,7 +243,32 @@ Built with modern infrastructure, comprehensive security, and operational excell
 
 ### 📦 To Install on Termux
 
-Run the following command in your Termux terminal:
+Install Termux and Termux API From F-Droid or GitHub Releases (avoid Google Play version)
 
-```bash
-curl -sSL https://raw.githubusercontent.com/MadeeshaSK/msgsend/main/install.sh | bash
+Settings > Apps > Termux > Permissions > Enable SMS
+
+pkg update && pkg upgrade
+
+pkg install python
+
+pkg install git
+
+pkg install termux-api
+
+pip install requests
+
+termux-setup-storage
+
+pip install requests
+
+wget https://github.com/MadeeshaSK/msgsend/releases/download/v2.0/msgsend
+
+unzip msgsend-v2.0.zip
+
+cd msgsend-v2.0
+
+bash install.sh
+
+python msgsend.py
+
+# python msgsend.py
