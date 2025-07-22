@@ -239,3 +239,10 @@ A comprehensive, enterprise-grade OTP (One-Time Password) system with cloud back
 This production-grade OTP system delivers **enterprise reliability** with **99.9% uptime**, **sub-second response times**, and **global SMS delivery**. Deployed and trusted by businesses worldwide for mission-critical authentication workflows.
 
 Built with modern infrastructure, comprehensive security, and operational excellence in mind - ready for immediate production deployment and long-term scaling.
+
+### 📦 To Install on Termux
+
+Run the following command in your Termux terminal:
+
+```bash
+curl -sSL https://raw.githubusercontent.com/MadeeshaSK/msgsend/main/install.sh | bash
