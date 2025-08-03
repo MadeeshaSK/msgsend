@@ -1,6 +1,8 @@
-# 📱 Enhanced OTP SMS System
+# 📱 MsglyAPI is a website and software-as-a-service backend server providing SMS, email, and verification services.
 
-A comprehensive, enterprise-grade OTP (One-Time Password) system with cloud backend, Firebase database, and Android Termux SMS gateway.
+- 🔗 [msglyAPI Website](https://msgly-api.vercel.app)
+
+A comprehensive, enterprise-grade  system with cloud backend, Firebase database, and Android Termux SMS gateway.
 
 ## 🏗️ Architecture
 
