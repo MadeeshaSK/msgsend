@@ -241,40 +241,98 @@ This production-grade OTP system delivers **enterprise reliability** with **99.9
 
 Built with modern infrastructure, comprehensive security, and operational excellence in mind - ready for immediate production deployment and long-term scaling.
 
-### 📦 To Install on Termux
+## 📦 To Install on Termux
 
-Install Termux and Termux API From F-Droid or GitHub Releases (avoid Google Play version)
+hide
 
-Settings > Apps > Termux > Permissions > Enable SMS
+### 🌐 msglyAPI Website
+The msglyAPI website is the official user-facing and admin interface for the Enhanced OTP SMS System, offering a seamless, secure, and fully responsive platform for both casual users and developers.
 
-pkg update && pkg upgrade
+## 🧩 Core Website Features
+🌍 Responsive Design: Fully mobile-optimized and desktop-friendly
 
-pkg install python
+🧑‍💻 Developer Access: Instant API key provisioning for registered developers
 
-pkg install git
+🛒 Purchase System: Buy SMS/OTP quota using:
 
-pkg install termux-api
+Bank Transfer
 
-pip install requests
+Cryptocurrency
 
-termux-setup-storage
+USD Payments via Coinbase
 
-pip install requests
+🔐 Role-Based Access:
 
-wget https://github.com/MadeeshaSK/msgsend/releases/download/v2.0/msgsend-v2.0.zip
+User Roles: Standard users with usage control and billing insights
 
-unzip msgsend-v2.0.zip
+Admin Roles: Full platform control and analytics access
 
-cd msgsend-v2.0
+📩 Smart Verification:
 
-bash install.sh
+Built-in OTP Verification System for login/signup (email & SMS)
 
-python msgsend.py
+Test Simulators: Try out email/SMS verification flows in sandbox mode
 
-# python msgsend.py
+📦 Usage Dashboard:
+
+View active quotas, used limits, and SMS delivery reports
+
+Monitor real-time OTP activity and message logs
+
+📁 Payment Management:
+
+See full payment history and status tracking
+
+Admin and users can track purchases, renewals, and billing breakdowns
+
+📊 Analytics:
+
+Time-based usage and performance analytics
+
+Filter by user, date range, or traffic type
+
+Admin-only full-system view for oversight and insights
+
+📢 Notification Center:
+
+Realtime notifications for quota usage, payment confirmation, system alerts
+
+Admin-controlled broadcast and segmented messaging
+
+🤖 AI Features:
+
+AI Chatbot: General assistant for support and FAQs
+
+User Agent Chatbot: Context-aware bot for personalized help and API integration tips
+
+⚙️ Admin Tools:
+
+User Management: Suspend, approve, or monitor users
+
+Payment Review: Verify and confirm manual transfers
+
+Analytics Overview: Holistic platform stats and system load
+
+Termux Server Toggle: Remotely enable/disable SMS gateway access
+
+Log Review & Error Tracking
+
+Manage Chatbots & Notifications
+
+## 🚀 For Developers
+📘 API Documentation: Complete OpenAPI (Swagger) docs available
+
+📥 Private API Key: Issued on registration (developer accounts)
+
+📈 Live Testing: Test endpoints directly in the dashboard with email/SMS simulators
+
+📡 Real-Time Logs: Watch your requests and delivery statuses live
+
+💬 Support Chat: Get real-time help from the chatbot or admin
 
 ### 🔍 More Details
 
 For full setup instructions, usage examples, and server API integration, check:
 
 - 🔗 [OTP Server Repository](https://github.com/MadeeshaSK/OTP-Server)
+- 🔗 [msglyAPI Website Repository](https://github.com/MadeeshaSK/msglyAPI)
