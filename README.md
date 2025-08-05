@@ -1,7 +1,7 @@
 # 📱 MsglyAPI is a website and software-as-a-service backend server providing SMS, email, and verification services.
 
 - 🔗 [msglyAPI Website](https://msgly-api.vercel.app)
-- - 🔗 [API Documentaion](https://github.com/MadeeshaSK/msgsend/blob/main/API%20Documentation.md)
+- 🔗 [API Documentaion](https://github.com/MadeeshaSK/msgsend/blob/main/API%20Documentation.md)
 
 A comprehensive, enterprise-grade  system with cloud backend, Firebase database, and Android Termux SMS gateway.
 
@@ -340,4 +340,4 @@ For full setup instructions, usage examples, and server API integration, check:
 
 - 🔗 [OTP Server Repository](https://github.com/MadeeshaSK/OTP-Server)
 - 🔗 [msglyAPI Website Repository](https://github.com/MadeeshaSK/msglyAPI)
-- (Temporarily made private due to abuse. If you need access, please contact me directly.)
+- (Sometimes I made it temporarily private due to abuse. If you need access, please contact me directly.)
