@@ -27,6 +27,7 @@ A comprehensive, enterprise-grade  system with cloud backend, Firebase database,
 - **SSL Encryption**: HTTPS with auto-renewing Let's Encrypt certificates
 - **Input Validation**: Phone number and message format validation
 - **Automated Notifications**: Welcome, quota exhausted, and expiry alerts
+- **Multi threded**: Can manage multiple authentications sametime
 
 ### 🛠️ Administration
 - **Complete Admin Panel**: Full CRUD operations for user management
