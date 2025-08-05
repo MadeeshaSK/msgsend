@@ -1,6 +1,7 @@
 # 📱 MsglyAPI is a website and software-as-a-service backend server providing SMS, email, and verification services.
 
 - 🔗 [msglyAPI Website](https://msgly-api.vercel.app)
+- - 🔗 [API Documentaion](https://github.com/MadeeshaSK/msgsend/blob/main/API%20Documentation.md)
 
 A comprehensive, enterprise-grade  system with cloud backend, Firebase database, and Android Termux SMS gateway.
 
